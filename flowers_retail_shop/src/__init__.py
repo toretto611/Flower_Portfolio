@@ -1,7 +1,7 @@
 import os
 from flask import Flask, jsonify
 from flask_migrate import Migrate
-from .api.models import db
+from ...models import db
 
 # https://flask.palletsprojects.com/en/2.0.x/patterns/appfactories/
 
