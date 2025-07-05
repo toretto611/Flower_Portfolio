@@ -6,8 +6,8 @@ This is a simple API for a Flower and retail shop. You can manage business owner
 
 Had a bit of issues of connecting to the Flask run. It was connected to the twitter clone folder. So here’s the run down I did in order for it to work. I had to connect to the Flask container, then I had get into virtual environment. 
 Once I was connected to virtual environment. I had to get into the file I need to get to. Pretty much where the my-blog/flower is at.
-I had to run this command in the virtual environment in order to remove the twitter clone folder: (venv) root@079cbb756888:/app/my_blog/flowers# export FLASK_APP=wsgi.py
-After I ran that I run : (venv) root@079cbb756888:/app/my_blog/flowers# flask run --host=0.0.0.0 --port=5000 for it to connect it. 
+I had to run this command in the virtual environment in order to remove the twitter clone folder: (venv) root@079cbb756888:/app/Flower_Portfolio/flowers_retail_shop# export FLASK_APP=wsgi.py
+After I ran that I run : (venv) root@079cbb756888:/Flower_Portfolio/flowers_retail_shop# flask run --host=0.0.0.0 --port=5000 for it to connect it. 
 For there I was able to run API’s
  
 My base environment in Insomnia
