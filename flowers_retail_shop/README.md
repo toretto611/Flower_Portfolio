@@ -12,26 +12,26 @@ For there I was able to run API’s
  
 My base environment in Insomnia
 
- {
-	"base_url": "http://127.0.0.1:3000"
+{
+	"base_url": "http://127.0.0.1:5000"
 }
 
 Here are the API reference table also including the example URL and parameters base on what I did
  
 Endpoint	          Method	Example URL	                   Parameters
 
-/customers	              GET	        http://localhost:3000/customers	   None
-/customers	              POST	        http://localhost:3000/customers	   JSON: first_name, last_name, user_id
-/customers/<customer_id>  PUT	        http://localhost:3000/customers/1  JSON: fields to update
-/customers/<customer_id>  DELETE	    http://localhost:3000/customers/1  None
-/products	              GET	        http://localhost:3000/products	   None
-/products	              POST	        http://localhost:3000/products	   JSON: name, price, owner_id
-/suppliers	              GET	        http://localhost:3000/suppliers	   None
-/suppliers	              POST	        http://localhost:3000/suppliers	   JSON: name, contact_name, email, owner_id
-/orders	                  GET	        http://localhost:3000/orders	   None
-/orders   	              POST	        http://localhost:3000/orders	   JSON: customer_id, order_date, status
-/orders/<order_id>	      PUT	        http://localhost:3000/orders/1	   JSON: fields to update
-/orders/<order_id>	      DELETE	    http://localhost:3000/orders/1	   None
+/customers	              GET	        http://localhost:5000/customers	   None
+/customers	              POST	        http://localhost:5000/customers	   JSON: first_name, last_name, user_id
+/customers/<customer_id>  PUT	        http://localhost:5000/customers/1  JSON: fields to update
+/customers/<customer_id>  DELETE	    http://localhost:5000/customers/1  None
+/products	              GET	        http://localhost:5000/products	   None
+/products	              POST	        http://localhost:5000/products	   JSON: name, price, owner_id
+/suppliers	              GET	        http://localhost:5000/suppliers	   None
+/suppliers	              POST	        http://localhost:5000/suppliers	   JSON: name, contact_name, email, owner_id
+/orders	                  GET	        http://localhost:5000/orders	   None
+/orders   	              POST	        http://localhost:5000/orders	   JSON: customer_id, order_date, status
+/orders/<order_id>	      PUT	        http://localhost:5000/orders/1	   JSON: fields to update
+/orders/<order_id>	      DELETE	    http://localhost:5000/orders/1	   None
 
 Retrospective answering of the following questions:
 
