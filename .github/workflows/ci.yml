@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+    runs-on: ubuntu-latest
 
     steps:
     # Step 1: Checkout code from the repository
@@ -50,7 +50,8 @@ jobs:
       with:
         credentials_json: ${{ secrets.GCP_CREDENTIALS }}  # Google Cloud service account credentials
 
-    # Step 8: Push Docker image to Google Cloud Registry (GCR)
+    # Step 8: Push Docker image to GCR
     - name: Push Docker image to GCR
       run: |
         docker push gcr.io/$GCP_PROJECT_ID/flower-portfolio:$GITHUB_SHA  # Push the image to GCR
+        
